@@ -10,6 +10,10 @@
 
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+	char s[]="_putchar" ;
+	int cnt=0 ;
+	for (int cnt=0 ; cnt < 8 ; cnt++)
+		printf(s[cnt]) ;
+	printf("\n");
+	return (0) ;
 }
