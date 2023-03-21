@@ -10,10 +10,11 @@
 
 int main(void)
 {
-	char s[]="_putchar" ;
-	int cnt=0 ;
-	for (int cnt=0 ; cnt < 8 ; cnt++)
-		printf(s[cnt]) ;
+	char s[] = "_putchar";
+	int cnt = 0;
+
+	for (int cnt = 0; cnt < 8; cnt++)
+		printf(s[cnt]);
 	printf("\n");
-	return (0) ;
+	return (0);
 }
