@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphapet - utilizes on the function to print
+ *	the alphabet a - z
  *
- * Return: Always 0.
- */
+*/
 int print_alphabet(void)
 {
 	int ch;
