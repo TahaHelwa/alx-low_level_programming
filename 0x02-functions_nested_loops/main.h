@@ -4,6 +4,5 @@
 #include<stdio.h>
 
 int _putchar(char c);
-/* other function prototypes go here */
 
-#endif /* MAIN_H */
+#endif
