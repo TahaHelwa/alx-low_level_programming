@@ -10,7 +10,7 @@
 int main(void)
 {
 	char password[84];
-	long long i, sum, diff;
+	int i, sum, diff;
 
 	srand(time(NULL));
 
@@ -25,5 +25,5 @@ int main(void)
 
 	printf("%s", password);
 
-	return 0;
+	return (0);
 }
