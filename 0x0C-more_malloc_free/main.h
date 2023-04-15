@@ -3,7 +3,6 @@
 
 #include <stdlib.h>
 
-// Function prototypes
 int _putchar(char c);
 void _puts(char *str);
 void *malloc_checked(unsigned int b);
@@ -15,4 +14,4 @@ int _atoi(const char *s);
 void print_int(unsigned long int n);
 
 
-#endif /* MAIN_H */
+#endif
