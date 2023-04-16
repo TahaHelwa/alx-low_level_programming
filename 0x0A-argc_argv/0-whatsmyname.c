@@ -1,10 +1,9 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - Prints the name of the program
- * @argc: The number of arguments passed to the program
- * @argv: An array of pointers to the strings passed as 
- * arguments to the program
+ * main - prints program name, followed by a new line
+ * @argc: int
+ * @argv: list
  *
  * Return: Always 0
  */
