@@ -6,15 +6,13 @@
  * @size: Size of the array
  * @action: Pointer to the function to be executed on each element
  *
- * Description: This function takes a pointer to an array, the size of the
- * array, and a pointer to a function. It iterates over each element of the
- * array and executes the provided function on each element.
+ * return: void
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	if (array == NULL || action == NULL)
-		return;
+	int *end = array + size -1;
 
-	for (size_t i = 0; i < size; i++)
-		action(array[i]);
+	if (array && size && action)
+		while (array <= end)
+			action(*array++);
 }
